@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quesan.app.AnswerListFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewQuestionTitle"
+            android:hint="Question"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question"
+            android:visibility="gone"
+            android:id="@+id/textViewQuestionid"
+            />
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/listViewAnswers"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:divider="@color/colorPrimary"
+            android:dividerHeight="1dp"
+            android:layout_below="@id/textViewQuestionTitle"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideInset"
+
+            >
+        </ListView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/editTextAnswer"
+            android:hint="Enter Your Answer here..."
+            android:layout_below="@id/listViewAnswers"
+            android:minLines="4"
+            android:inputType="textMultiLine"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAnswer"
+            android:layout_below="@id/editTextAnswer"
+            android:layout_alignParentBottom="true"
+            android:text="Reply"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

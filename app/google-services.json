@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "948866278772",
+    "firebase_url": "https://quesan-65085.firebaseio.com",
+    "project_id": "quesan-65085",
+    "storage_bucket": "quesan-65085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948866278772:android:e7c24420aff6b71d",
+        "android_client_info": {
+          "package_name": "com.quesan.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948866278772-tc6sec4tj5t50s3gmssmqc85bv1n2g7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quesan.app",
+            "certificate_hash": "c254bfd9d56b8247535e93518fc8312c2aaedb62"
+          }
+        },
+        {
+          "client_id": "948866278772-nt0k1hdlklqes337afcfnai07bsc5s5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gmO1oHbYfF_J55Wt5F8v_D0_Z-XapMI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948866278772-nt0k1hdlklqes337afcfnai07bsc5s5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

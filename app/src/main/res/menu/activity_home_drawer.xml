@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_post"
+            android:title="Post Query" />
+        <item
+            android:id="@+id/nav_myQuestion"
+            android:icon="@drawable/ic_myques"
+            android:title="My Question" />
+        <item
+            android:id="@+id/nav_unanswered"
+            android:icon="@drawable/ic_unans"
+            android:title="UnAnswered Queries" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_users"
+                android:icon="@drawable/ic_users"
+                android:title="Users" />
+
+
+            <item android:id="@+id/sentMessages"
+                android:title="Sent Messages"
+                android:icon="@drawable/ic_post"
+                />
+
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_rateus"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About Us"
+                android:icon="@drawable/ic_aboutus"
+
+                />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share App"
+                android:icon="@drawable/ic_share"
+                app:showAsAction="ifRoom"
+                android:actionProviderClass="android.widget.ShareActionProvider"
+
+                />
+
+        </menu>
+    </item>
+
+</menu>

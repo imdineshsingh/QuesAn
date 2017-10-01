@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quesan.app.UserProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_profileimage"
+            android:layout_marginLeft="120dp"
+
+
+            />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userFirstName"
+        android:hint="Enter your full name"
+        android:layout_below="@id/userImage"
+        />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/userLastName"
+       android:hint="Enter YOur last name"
+       android:layout_below="@id/userFirstName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userMobileNo"
+            android:hint="Enter your mobile no."
+            android:inputType="phone"
+            android:layout_below="@id/userLastName"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userProfession"
+            android:hint="Enter Your Profession"
+            android:layout_below="@id/userMobileNo"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userAddress"
+            android:hint="Enter Your Address"
+            android:layout_below="@id/userProfession"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSubmit"
+            android:text="Submit "
+            android:layout_below="@id/userAddress"
+            android:layout_marginLeft="120dp"
+            />
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
